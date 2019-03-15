@@ -8,7 +8,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   	<div class="login-logo">
-  		<b>Voting System</b>
+  		<b>WASS Voting System</b>
   	</div>
   
   	<div class="login-box-body">
@@ -45,5 +45,5 @@
 <?php include 'includes/scripts.php' ?>
 </body>
 <footer>
-<p><center>Login Details Are Provided Inside README.txt File<center></p></footer>
+<p><center>Login Details<center></p></footer>
 </html>
