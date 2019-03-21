@@ -15,6 +15,7 @@
         		<tr>
         			<td width="80%"><b>Candidates</b></td>
         			<td width="20%"><b>Votes</b></td>
+          
         		</tr>
         	';
 
@@ -24,11 +25,13 @@
     			$sql = "SELECT * FROM votes WHERE candidate_id = '".$crow['id']."'";
       			$vquery = $conn->query($sql);
       			$votes = $vquery->num_rows;
+          
 
       			$contents .= '
       				<tr>
       					<td>'.$crow['lastname'].", ".$crow['firstname'].'</td>
       					<td>'.$votes.'</td>
+                
       				</tr>
       			';
 
